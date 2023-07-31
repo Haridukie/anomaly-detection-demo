@@ -6,8 +6,8 @@ import io
 import pandas as pd
 from setinflux import csv_to_influxdb
 
-minio_client = minio.Minio('play.min.io',
-                           'WWT243vlCzx24DlcGKxJ', '4RQoYZ2E2SSo6XeYGchftXEucp5NDqX8lKc4erxk', secure=True)
+minio_client = minio.Minio('10.0.0.106:9000',
+                           'eMjoaYzDwm0y1ar5Zykq', 'MozPAyV5tgR8G3a3OYq3FV6j6TXX9Zp2x97auhrH', secure=False)
 
 
 def read_minio_object(bucket_name, object_name, influx_client):

@@ -1,0 +1,2 @@
+{"asctime": "2023-07-31 21:00:13,143", "process": 12784, "levelname": "DEBUG", "name": "asyncio", "module": "selector_events", "funcName": "__init__", "lineno": 54}
+{"asctime": "2023-07-31 21:01:54,747", "process": 13516, "levelname": "DEBUG", "name": "asyncio", "module": "selector_events", "funcName": "__init__", "lineno": 54}

@@ -57,7 +57,7 @@ def init_database_connection():
         connection_url = props.get_properties("database", "connection_url")
         db_name = props.get_properties("database", "db_name")
         client = InfluxDBClient(
-            connection_url, token="g6Yg6GMnOnwVbTo2OpMDhQY2kZ5fzmznO3ix32ngIlkGFCQ2a2nzw7h7FZ2FaR_gRWHYZzz3dqzB5BQ5Lqg5xw==", org="Hari")
+            connection_url, token="sIokMknLOBmfxMMrtkrMQTqImwd_wGnMH1-b6Hz_WDvuWp4-ysJ0Cl7UHpaRw-0SovIfMPXwcwmN8bd_HERnGA==", org="eminds")
     except Exception:
         raise Exception("Database connection error")
     return client
